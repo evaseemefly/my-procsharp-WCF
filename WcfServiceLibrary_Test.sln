@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibrary_Test", "WcfServiceLibrary_Test\WcfServiceLibrary_Test.csproj", "{3EF77336-0663-493F-B9C6-7FC8E0380255}"
 EndProject
@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathClient", "MathClient\Ma
 	ProjectSection(ProjectDependencies) = postProject
 		{0749C4CE-0E03-49F5-BD42-262F45700A02} = {0749C4CE-0E03-49F5-BD42-262F45700A02}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathWindowsService", "MathWindowsService\MathWindowsService.csproj", "{BAF2D290-12BC-420F-9B44-79474F7814AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +62,10 @@ Global
 		{D188723F-E2AF-41B2-8459-83FE19EEB29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D188723F-E2AF-41B2-8459-83FE19EEB29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D188723F-E2AF-41B2-8459-83FE19EEB29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF2D290-12BC-420F-9B44-79474F7814AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF2D290-12BC-420F-9B44-79474F7814AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF2D290-12BC-420F-9B44-79474F7814AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF2D290-12BC-420F-9B44-79474F7814AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
